@@ -3,7 +3,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'change-me-to-a-secure-random-string'
 DEBUG = True
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ["*", "health-fall-detection.onrender.com"]
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
